@@ -20,7 +20,7 @@ app.get("/contact", (req, res) =>{
 })
 
 
-app.get("/faq", (req, res) =>{
+app.get("/faq", (req, res) =>{ 
     res.render("faq.ejs")
 })
 
